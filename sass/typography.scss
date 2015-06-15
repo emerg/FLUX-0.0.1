@@ -1,0 +1,56 @@
+h1,h2,h3,h4,h5{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.header h1{
+	color: #fff;
+}
+
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	margin: 1em 0;
+}
+
+p a{
+	color: #142C89;
+}
+
+p a:hover{
+	color: #D75EAA;
+}
+
+hr{
+	border: none;
+	height: 1px;
+	background: #000;
+	margin: 0.3em 0;
+	padding: 0;
+}
+
+
+/*TABLET BREAKPOINT*/
+@media screen and (min-width:724px) {
+
+
+
+}
+/*END TABLET BREAKPOINT*/
+
+
+/*DESKTOP BREAKPOINT*/
+@media screen and (min-width:1000px) {
+
+
+}
+/*END DESKTOP BREAKPOINT*/
+
+
+/*XL DESKTOP BREAKPOINT*/
+@media screen and (min-width:1200px) {
+
+
+}
+/*END XL DESKTOP BREAKPOINT*/

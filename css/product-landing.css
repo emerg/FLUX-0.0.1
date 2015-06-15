@@ -1,0 +1,12 @@
+.product-thumb {
+  width: 100%; }
+
+/*TABLET BREAKPOINT*/
+@media screen and (min-width: 724px) {
+  .product-thumb {
+    width: 20%; } }
+/*END TABLET BREAKPOINT*/
+/*DESKTOP BREAKPOINT*/
+/*END DESKTOP BREAKPOINT*/
+/*XL DESKTOP BREAKPOINT*/
+/*END XL DESKTOP BREAKPOINT*/

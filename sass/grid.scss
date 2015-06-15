@@ -1,0 +1,130 @@
+.site-container{
+	position: relative;
+}
+
+.site-width{
+	width: 100%;
+	max-width:500px;
+	margin: auto;
+	/*outline: solid 1px #000;*/
+}
+
+.row{
+}
+
+.spacer{
+	margin:0.3em;
+	padding:0.5em; 
+	background:rgba(255,255,255,0.5);
+/*	-moz-box-shadow: 0 0 8px #0005AE;
+	-webkit-box-shadow: 0 0 8px #0005AE;
+	box-shadow: 0 0 8px #0005AE;
+*/
+
+	-moz-box-shadow: 0 0 8px #5C637C;
+	-webkit-box-shadow: 0 0 8px #5C637C;
+	box-shadow: 0 0 8px #5C637C;
+
+	/*outline: 1px solid black;*/
+}
+
+
+.half{
+	width:100%;
+	float: left;
+	background:rgba(255,255,255,0.1);
+	/*outline: 1px solid black;*/
+}
+
+.third{
+	width:100%;
+	float: left;
+	background:rgba(255,255,255,0.1);
+	/*outline: 1px solid black;*/
+}
+
+.fourth{
+	width:100%;
+	float: left;
+	background:rgba(255,255,255,0.1);
+	/*outline: 1px solid black;*/
+}
+
+.fifth{
+	width:100%;
+	float: left;
+	background:rgba(255,255,255,0.1);
+	/*outline: 1px solid black;*/
+}
+
+.four-fifths{
+	width: 80%;
+	float: left;
+	background:rgba(255,255,255,0.1);
+	/*outline: 1px solid black;*/
+}
+
+
+
+
+
+/*TABLET BREAKPOINT*/
+@media screen and (min-width:724px) {
+
+	.site-width{
+		max-width: 724px;
+	}
+
+.half{
+	width: 50%;
+	float: left;
+	background:rgba(255,255,255,0.1);
+	/*outline: 1px solid black;*/
+}
+
+.third{
+	width: 33.3333%;
+	float: left;
+	background:rgba(255,255,255,0.1);
+	/*outline: 1px solid black;*/
+}
+
+.fourth{
+	width: 25%;
+	float: left;
+	background:rgba(255,255,255,0.1);
+	/*outline: 1px solid black;*/
+}
+
+.fifth{
+	width: 20%;
+	float: left;
+	background:rgba(255,255,255,0.1);
+	/*outline: 1px solid black;*/
+}
+
+
+
+
+}
+/*END TABLET BREAKPOINT*/
+
+
+/*DESKTOP BREAKPOINT*/
+@media screen and (min-width:1000px) {
+	.site-width{
+		max-width: 1000px;
+	}
+
+}
+/*END DESKTOP BREAKPOINT*/
+
+
+/*XL DESKTOP BREAKPOINT*/
+@media screen and (min-width:1200px) {
+	.site-width{
+		max-width: 1200px;
+	}
+
+}
+/*END XL DESKTOP BREAKPOINT*/

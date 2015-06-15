@@ -1,0 +1,50 @@
+.social-btn{
+	float: left;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #CB497F;
+	margin-right: 0.3em;
+	border-radius: 7px;
+}
+
+.cta-btn{
+	display: block;
+	padding: 10px;
+	background: #E43357;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color:#fff;
+	width: 150px;
+	border-radius: 8px;
+}
+
+.cta-btn:hover{
+	background: #99D73E;
+}
+
+
+/*TABLET BREAKPOINT*/
+@media screen and (min-width:724px) {
+
+
+
+}
+/*END TABLET BREAKPOINT*/
+
+
+/*DESKTOP BREAKPOINT*/
+@media screen and (min-width:1000px) {
+
+
+}
+/*END DESKTOP BREAKPOINT*/
+
+
+/*XL DESKTOP BREAKPOINT*/
+@media screen and (min-width:1200px) {
+
+
+}
+/*END XL DESKTOP BREAKPOINT*/

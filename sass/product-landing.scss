@@ -1,0 +1,92 @@
+.product-listing{
+ background: rgba(255,255,255,0.2);
+ margin-bottom: 0.5em;
+ padding: 1em;
+}
+
+.product-thumb{
+	width: 100%;
+}
+
+
+.includes{
+	float: left;
+	/*background: #D59FC2;*/
+}
+
+.includes-icon{
+	display:inline-block;
+	width: 30px;
+	height: 30px;
+	background: #625CD5;
+	border-radius: 6px;
+}
+
+
+.price-cta .cta-btn{
+	position: relative;
+	float: right;
+	right: 0px;
+	width: 100%;
+	padding:10px 0;
+	text-align: center;
+
+}
+
+.price-cta .price{
+	float:left;
+	margin-right: 1em;
+	font-weight: bold;
+	font-size: 20px;
+	color: #0F4F39;
+}
+
+
+
+/*TABLET BREAKPOINT*/
+@media screen and (min-width:724px) {
+
+.product-thumb{
+	width: 33%;
+	float: left;
+}
+
+.product-content{
+	width: 67%;
+	float: left;
+}
+
+
+
+.price-cta{
+	float: right;
+/*	background: #8EACFE;*/
+	position: relative;
+}
+
+
+
+.price-cta .cta-btn{
+	float: right;
+	position: relative;
+	right: 0px;
+}
+
+}
+/*END TABLET BREAKPOINT*/
+
+
+/*DESKTOP BREAKPOINT*/
+@media screen and (min-width:1000px) {
+
+
+}
+/*END DESKTOP BREAKPOINT*/
+
+
+/*XL DESKTOP BREAKPOINT*/
+@media screen and (min-width:1200px) {
+
+
+}
+/*END XL DESKTOP BREAKPOINT*/

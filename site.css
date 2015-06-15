@@ -1,0 +1,36 @@
+
+
+
+.site-container{
+	width: 1000px;
+	height: 2000px;
+	background: #c9cbea;
+	margin: auto;
+}
+
+.site-header{
+	height: 200px;
+	background: #eadd96;
+}
+
+.clm-left{
+	width: 50%;
+	float: left;
+/*	padding: 10px;*/
+
+}
+
+.clm-right{
+	width: 50%;
+	height: 400px;
+	background: #f09;
+	float: left;
+/*	padding: 10px;*/
+}
+
+
+.site-body{
+	padding: 15px;
+}
+
+

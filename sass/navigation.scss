@@ -1,0 +1,179 @@
+/*General Navigation Styles*/
+.primary-nav a{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+}
+
+/*MOBILE NAV STYLES*/
+
+.mobile-nav{
+	margin: 20px;
+}
+
+.mobile-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.mobile-nav ul > li{
+/*border-bottom: 1px solid #fff;*/
+/*padding-bottom: 10px;*/
+display: block;
+list-style: none;
+}
+
+
+.mobile-nav ul > li a{
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+/*.mobile-nav .primary-nav > a{
+	border-bottom: 1px solid #fff;
+
+}*/
+
+
+.mobile-nav .drop-down{
+	position: relative;
+	background: #3363CF;
+	left: 0;
+	z-index: 100;
+	display:none;
+}
+
+.mobile-nav li.primary-nav:hover > .drop-down{
+	display: block;
+}
+
+.mobile-nav .social-icons li{
+	float: left;
+	margin:0.15em;
+	padding: 0;
+}
+
+.mobile-nav .social-icons li a{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.search-container{
+	background: #5ACFB9;
+/*	padding: 10px;*/
+	outline: 1px solid #000;
+/*	position: absolute;*/
+
+	width: 100%;
+} 
+
+.input{
+	background: #fff;
+	padding: 10px;
+	margin: 20px;
+
+}
+
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
+
+.search-icon{
+	display: block;
+	float: right;
+	background: #fff;
+	padding: 13px;
+	position: relative;
+	z-index: 100;
+}
+
+
+/*TABLET BREAKPOINT*/
+@media screen and (min-width:724px) {
+	
+
+
+	.main-nav .search-container{
+		position: absolute;
+		top:60px;
+		/*display: none;*/
+	}
+
+.main-nav{
+	background: #f09;
+	position: relative;
+	width: 100%;
+	z-index: 50;
+}
+
+.main-nav .primary-nav{
+	float: left;
+	list-style: none;
+	display: block;
+}
+
+.main-nav .primary-nav > a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	background: #68B5CF;
+	margin: 5px;
+/*	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;*/
+}
+
+
+.main-nav li.primary-nav:hover > a{
+	border-bottom: 3px solid #28CF25;
+}
+
+.main-nav .drop-down{
+	position:absolute;
+	width: 100%;
+	background: #3363CF;
+	height:350px;
+	left: 0;
+	z-index: 100;
+	display: none;
+}
+
+.main-nav li.primary-nav:hover > .drop-down{
+	display: block;
+}
+
+
+
+}
+/*END TABLET BREAKPOINT*/
+
+
+/*DESKTOP BREAKPOINT*/
+@media screen and (min-width:1000px) {
+
+
+}
+/*END DESKTOP BREAKPOINT*/
+
+
+/*XL DESKTOP BREAKPOINT*/
+@media screen and (min-width:1200px) {
+
+
+}
+/*END XL DESKTOP BREAKPOINT*/

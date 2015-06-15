@@ -1,0 +1,65 @@
+.home-nav ul{
+	margin: 0;
+	padding: 0;
+}
+.home-nav li{
+	list-style: none;
+
+}
+
+.home-nav a{
+	font-family: 'Open Sans', sans-serif;
+	color: #9EB39B;
+	display: block;
+	background:#37353B;
+	padding: 10px;
+/*	margin-bottom:2px;*/
+	border-bottom: 1px solid #4C4A52;
+	text-align: center;
+	text-decoration: none;
+}
+
+.home-nav .icon{
+	display:inline-block;
+	padding-left:10px;
+}
+
+
+
+
+.social-btn{
+	float: left;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #9A6B9D;
+	margin-right: 0.3em;
+
+
+}
+
+
+
+/*TABLET BREAKPOINT*/
+@media screen and (min-width:724px) {
+
+
+
+}
+/*END TABLET BREAKPOINT*/
+
+
+/*DESKTOP BREAKPOINT*/
+@media screen and (min-width:1000px) {
+
+
+}
+/*END DESKTOP BREAKPOINT*/
+
+
+/*XL DESKTOP BREAKPOINT*/
+@media screen and (min-width:1200px) {
+
+
+}
+/*END XL DESKTOP BREAKPOINT*/

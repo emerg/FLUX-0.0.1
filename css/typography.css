@@ -1,0 +1,17 @@
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header h1{
+	color: #fff;
+}
+
+p {
+  font-family: arial; }
+
+/*TABLET BREAKPOINT*/
+/*END TABLET BREAKPOINT*/
+/*DESKTOP BREAKPOINT*/
+/*END DESKTOP BREAKPOINT*/
+/*XL DESKTOP BREAKPOINT*/
+/*END XL DESKTOP BREAKPOINT*/
